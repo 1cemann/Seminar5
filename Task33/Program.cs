@@ -5,6 +5,19 @@
 
 //3; массив [6, 7, 19, 345, 3] -> да
 
+//!!!!!!!!!!!!! int[] GetArrayFromString(string arrayStr)
+//{
+//    string[] arS=arrayStr.Split(' ',StringSplitOptions.RemoveEmptyEntries);
+//    int[] result=new int[arS.Length];
+//    for(int i=0; i<arS.Length;i++)
+//    {
+//        result[i]=int.Parse(arS[i]);
+//    }
+  //  return result;
+//}
+//           Способ избавиться от пустых значений!!!!!!!!!!!!!!!!!
+
+
 using System;
 using static System.Console;
 Clear();
